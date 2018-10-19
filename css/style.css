@@ -1,0 +1,126 @@
+.logo{
+
+	max-width: 150px;
+	height: auto;
+}
+
+.navbg{
+	background: hsla(240, 100%, 50%, 0.8);
+
+}
+
+.icon{
+	max-width: 50px;
+	height: auto;
+}
+.icon1{
+	max-width: 70px;
+	height: auto;
+}
+.contacts{
+	color: #757575;
+}
+
+.slideimg{
+	max-width: 
+}
+.t-color{
+	color: green;
+	font-weight: bold;
+	font-size: 120%;
+
+}
+.maketopspace{
+	margin-top: 15px;
+}
+
+.bg1{
+	background-color: green;
+	opacity: .7;
+}
+.courses{
+	color: black;
+	font-size: 120%;
+	color: white;
+	font-weight: bold;
+}
+.courses:hover{
+	transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+.newsImg {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.newsImg > span::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+.newsImg > span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.newsImg > div > h3 {
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+.newsImg > p {
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    text-transform: uppercase;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid #fff;
+    margin: 0;
+    font-size: 1.3rem;
+    padding: 10px;
+    text-align: center;
+    left: calc(50% - 75px);
+    bottom: -50px;
+    transition: all 0.4s ease;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.2);
+    opacity: 0;
+}
+.newsImg > b {
+    position: absolute;
+    z-index: 3;
+    top: 15px;
+    right: 15px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 4px 7px;
+    transition: all 0.3s ease;
+}
+.newsGrid {
+    display: inline-block;
+    width: calc(33.333% - 30px);
+    margin: 0 15px px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    letter-spacing: normal;
+    vertical-align: top;
+}
