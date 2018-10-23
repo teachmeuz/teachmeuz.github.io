@@ -4,23 +4,25 @@
 
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Teachme</title>
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/carousel.css">
-	
+	<link rel="stylesheet" href="parallax/parallax.css">
+	<link rel="stylesheet" href="css/hover.css">
+
 	<script src="js/bootstrap.js"></script>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
+	
 	<script src="js/parallax.js"></script>
 	<script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
 
 </head>
 <body>
 	<!-- headerStart -->
-	<header class="header " >
+	<header class="header" style="background-color: white;">
 		<div class="fixed-top " style="background-color: white;">
 			<div class="container maketopspace" >
 				<div class="row contacts">
@@ -28,7 +30,7 @@
 						<a href=""><img src="img/logo.png" alt="" class="logo"></a>
 					</div>
 					<div class="col-lg-2 ">
-						<img src="img/phone.png" class="icon align-text-top float-right" alt="">
+						<img src="img/phone.png" class="icon  align-text-top float-right" alt="">
 					</div>
 					<div class="col-lg-3">
 						<span class="align-text-top"> Звоните нам: <strong> 
@@ -46,9 +48,9 @@
 				</div>
 			</div>
 		<!-- headerEnd -->
-			<div class="col-12 navbg ">
-				<nav class="navbar navbar-expand-lg navbar-dark navbg offset-1">
-				  <a class="navbar-brand" href="#">TeachMe</a>
+			<div class="col-12 bg-info ">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-info ">
+				  <a class="navbar-brand" href="#"><h3>TeachMe</h3></a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
@@ -68,9 +70,10 @@
 				         Курсы
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				          <a class="dropdown-item" href="#">Математика</a>
+				          <a class="dropdown-item" href="#">Русский</a>
 				          <a class="dropdown-item" href="#">Физика</a>
-				          <a class="dropdown-item" href="#">Химия</a>
+				          <a class="dropdown-item" href="#">Математика</a>
+				          <a class="dropdown-item" href="#">Английский</a>
 				        </div>
 				      </li>
 				    </ul>
@@ -80,7 +83,7 @@
 		</div>
 	</header>
 	<!-- navbarstart -->
-	<section>
+	<section >
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
@@ -100,30 +103,62 @@
 		  </a>
 		</div>
 	</section>
-	
-	<section class="bg1 maketopspace" style="height: 300px;">
-		<div class="container-fluid text-center">
-			<h1 class="text-center"><b style="color:white">Курсы</b></h1>
-			<div class="col-12" >
-			  <section class="customer-logos slider d-flex align-content-center justify-content-md-center" >
-			    <div class="slide courses">Программирование</div>
-			    <div class="slide courses">Английский для детей</div>
-			    <div class="slide courses">Бизнес Английский</div>
-			    <div class="slide courses">Русский язык</div>
-			    <div class="slide courses">Математика</div>
-			    <div class="slide courses">Физика</div>
-			    <div class="slide courses">Химия</div>
-			  </section>
+	<section>
+		<div class="container-fluid" style="background-color: white;">
+			<div class="row">
+				<div class="col-12">
+					<br>
+					<h3 class=" text-center text-success maketopspace"> Учебный центр "Teachme" </h3>
+					<h4 class="text-center"><strong>Максимальный ЭФФЕКТ, минимальный РАСХОД</strong></h4>
+					<div class="col-6 offset-3">
+						<p class="text-justify" style="color: grey; font-size: 110%;">
+						Мы научим Вас всем тонкостям туризма. Раскроем все секреты ресторанного и гостиничного бизнеса. Вы сможете получить теоретическую подготовку и практические навыки в бухгалтерии и познать программу 1-С. Свободно овладеете английским, узбекским, итальянским, испанским, французским и китайским языками. Вы научитесь компьютерной грамотности. Основательно подготовитесь к поступлению в ВУЗы.
+						<br>
+						<br>
+					</p>
+					</div>
+					
+				</div>
 			</div>
 		</div>
-
 	</section>
-	<section class="maketopspace">
-		<div class="container">
+
+	<section class="bg1">
+		
+			
+				<div class="parallax" style="background: url(img/books_bg.jpeg) center center / cover no-repeat;">
+		 		</div>
+			
+			<div class="container">
+				<div class="row ">
+					<div class="col-12 text-center">
+						<h1 class="courses">Курсы</h1>
+					</div>
+					<div class="col-12 d-flex align-content-center justify-content-center" style="margin-top: 5%;">
+						<a href="" class="hvr-grow "><img class="courseicon" src="img/russian.png" alt="">
+							<p class="text-center"><strong>Русский</strong></p> 
+						</a>
+						<a href="" class="hvr-grow offset-1"><img class="courseicon" src="img/physics.png" alt="">
+							<p class="text-center"><strong>Физика</strong></p> 
+						</a>
+						<a href="" class="hvr-grow offset-1"><img class="courseicon" src="img/math.png" alt="">
+							<p class="text-center"><strong>Математика</strong></p> 
+						</a>
+						<a href="" class="hvr-grow offset-1"><img class="courseicon" src="img/english.png" alt="">
+							<p class="text-center"><strong>Английский</strong></p> 
+						</a>
+					</div>
+					
+				</div>
+			</div>
+</section>
+
+<section class="" style="background-color: white; height: 500px">
+		<div class="container ">
 			<div class="col-lg-12">
 				<h1 class="text-center">Новости</h1>
 			</div>
-			<div class="col justify-content-md-center align-content-center">
+			<div class="col-12 d-flex justify-content-md-center align-content-center" style="margin-top: 5%;">
 				<a href="" class="newsGrid">
 					<div class="newsImg">
 						<span style="background-image: url(img/slide1.jpg);"></span>
@@ -133,7 +168,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="" class="newsGrid">
+				<a href="" class="newsGrid offset-1">
 					<div class="newsImg">
 						<span style="background-image: url(img/slide1.jpg);"></span>
 						<b>18/02/2017</b>
@@ -142,7 +177,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="" class="newsGrid">
+				<a href="" class="newsGrid offset-1">
 					<div class="newsImg">
 						<span style="background-image: url(img/slide1.jpg);"></span>
 						<b>18/02/2017</b>
@@ -162,18 +197,18 @@
 		
 		
 	</section>
-	<section class="bg1" style="margin-top: 0; height: 200px">
+	<section class="footer">
 		<div class="container">
 			<h1 style="color: white" class="text-center maketopspace">КОНТАКТЫ</h1>
-			<div class="row">
-				<div class="col-3 offset-1 text-center">
-					<img src="img/phone.png" class="icon1 textce img-responsive" alt="">
+			<div class="row d-flex align-content-center justify-content-center">
+				<div class="col-6 text-center">
+					<img src="img/phone.png" class="icon2 textce img-responsive" alt="">
 					<br> <b  style="color: white;">+998901231212</b>
 					<br> <b  style="color: white;">+998901231212</b>
 				</div>
-				<div class="col-5 offset-3">
-					<img src="img/email.png" class="icon1 offset-2 img-responsive" alt="">
-					<br> <h3  style="color: white;">teachme@mail.uz</h3>
+				<div class="col-6 text-center">
+					<img src="img/email.png" class="icon2 img-responsive " alt="">
+					<br> <h5 class=""  style="color: white;">teachme@mail.uz</h3>
 				</div>
 				
 			</div>
@@ -184,7 +219,7 @@
 	<section></section>
 	<section></section>
 
-
+<script  src="parallax/parallax.js"></script>
 	<script type="text/javascript">
 			$(document).ready(function(){
 				$('.customer-logos').slick({

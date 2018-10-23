@@ -42,7 +42,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: calibri, sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -548,6 +548,7 @@ pre code {
 }
 
 .container {
+  z-index: 1;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;

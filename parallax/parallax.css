@@ -1,0 +1,12 @@
+
+.parallax-container {
+  position: relative;
+  
+}
+
+.parallax {
+  position: absolute;
+  height: 215%;
+  width: 100%;
+  z-index: -1;
+}
