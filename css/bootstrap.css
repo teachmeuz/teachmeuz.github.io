@@ -64,7 +64,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #757575;
   text-align: left;
   background-color: #fff;
 }
@@ -3130,9 +3130,9 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
+  color: #fff;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: rgba(0,148,64, 0.8);
 }
 
 .dropdown-item.active, .dropdown-item:active {

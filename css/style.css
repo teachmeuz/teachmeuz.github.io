@@ -48,7 +48,7 @@
 .bg1{
     position: relative;
 	background: rgba(0,148,64, 0.8);
-	height: 500px;
+	height: 450px;
 }
 .courses{
 	color: white;
@@ -160,4 +160,45 @@ a>p.text-center{
 .icon2{
     max-width: 50px;
     height: auto;
+}
+
+.section{
+    margin-top: 200px;
+}
+
+.float-right > div.bg {
+    background: #f3f2f2;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(243, 242, 242);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.bg-color {
+    background: #009454;
+    text-align: center;
+}
+
+.right-menu {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.right-menu a {
+    display: block;
+    padding: 10px 25px 10px 30px;
+    color: #666;
+    position: relative;
+    text-decoration: none !important;
+    transform: all 0.3s ease;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
